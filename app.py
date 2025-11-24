@@ -42,7 +42,7 @@ with col_left:
                     added = ingestor.ingest_file(p)
                     total_chunks += added
                 st.success(f"Ingestion finished — added {total_chunks} chunks.")
-                st.experimental_rerun()
+                st.rerun()
 
     st.markdown("---")
     st.header("2) Index status & management")
@@ -53,7 +53,7 @@ with col_left:
             with st.spinner("Rebuilding index..."):
                 ingestor.rebuild_index_from_uploads("uploads")
             st.success("Rebuilt index.")
-            st.experimental_rerun()
+            st.rerun()
     else:
         st.warning("No FAISS index yet. Upload files and click 'Ingest uploaded files'.")
 

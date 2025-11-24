@@ -46,7 +46,7 @@ class RAGChat:
             f"CONTEXT:\n{context if context else 'No context available.'}\n\n"
             f"HISTORY:\n{history}\n\n"
             f"QUESTION:\n{question}\n\n"
-            "Answer in a clear, structured, pedagogical way. If you use context, mention the source tags like [1 | filename]."
+            "Answer in a clear, structured, way. If you use context, mention the source tags like [1 | filename]."
         )
         return prompt
 
@@ -75,5 +75,10 @@ class RAGChat:
         return text
 
     def _generate_local(self, prompt: str) -> str:
-        out = self.generator(prompt, max_length=512, do_sample=False)
-        return out[0]["generated_text"]
+        try:
+            out = self.generator(prompt, max_new_tokens=256, do_sample=False)
+            text = out[0]["generated_text"].strip()
+            return text if text else "No answer generated."
+        except Exception as e:
+            return f"Error generating answer locally: {e}"
+
