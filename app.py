@@ -8,7 +8,7 @@ import os
 ensure_dirs()
 
 st.set_page_config(page_title="RAG Pedagogical Assistant", layout="wide")
-st.title("📘 RAG Streamlit — Upload → Embed → Chat")
+st.title("NLP - RAG Application — Upload → Embed → Chat")
 
 st.markdown(
     "Upload PDF / TXT / DOCX files, build a local FAISS vector DB, and chat with a pedagogical assistant "

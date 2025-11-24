@@ -1,0 +1,342 @@
+[
+  {
+    "id": 0,
+    "source": "Intership_Report.pdf",
+    "text": "Internship Report\nMasterlys - Digital Marketing\nPeriod: August 11th to September 11th\nPrepared by: Mohamed OUHADDA\nNovember 23, 2025"
+  },
+  {
+    "id": 1,
+    "source": "Intership_Report.pdf",
+    "text": "Acknowledgements\nI would like to express my sincere gratitude to my academic supervisor and Head of De-\npartmentPr. Tawfik MASROUR, whose continuous support, follow-up, and valuable\nacademic insights ensured that my commitment aligned with my learning objectives. His\nencouragement to student development have been essential to the successful completion\nof this work.\nI extend my deep appreciation to my supervisor at MasterlysMr. Alaeeddine\nBENNOUTE, whose guidance, availability, and constructive feedback greatly supported\nmy progress throughout this internship. Their professionalism and expertise allowed me\nto develop both technical and practical skills in a real-world environment, and I am deeply\nthankful for the trust they placed in me.\nI would also like to express my gratitude toNational"
+  },
+  {
+    "id": 2,
+    "source": "Intership_Report.pdf",
+    "text": "e allowed me\nto develop both technical and practical skills in a real-world environment, and I am deeply\nthankful for the trust they placed in me.\nI would also like to express my gratitude toNational Graduate School of Arts\nand Crafts ENSAM Meknesfor providing me with this valuable opportunity to bridge\nacademic knowledge with professional practice through this internship experience.\nI am genuinely grateful to all of them for their time, mentorship, and the opportuni-\nties they provided, which have been instrumental in both my academic and professional\ndevelopment.\n1"
+  },
+  {
+    "id": 3,
+    "source": "Intership_Report.pdf",
+    "text": "Contents\n1 Executive Summary 3\n2 Introduction to the Host Company and Internship Context 3\n3 Internship Objectives and Personal Learning Goals 4\n4 Methodology: The Agile Development Framework 5\n5 Technological Environment and Formation 6\n5.1 Supabase: The Backend-as-a-Service Platform . . . . . . . . . . . . . . . 6\n5.2 TypeScript: Ensuring Code Reliability . . . . . . . . . . . . . . . . . . . 6\n5.3 Secure Web Development Principles . . . . . . . . . . . . . . . . . . . . . 7\n5.4 Collaborative Development with Git & GitHub . . . . . . . . . . . . . . 7\n6 Project Overview: The Smart Invoicing Application 8\n7 Task 1: Development of an AI-Powered Chatbot 10\n7.1 Rationale for OpenAI API Selection . . . . . . . . . . . . . . . . . . . . . 10\n7.2 System Architecture and Design . . . . . . . . ."
+  },
+  {
+    "id": 4,
+    "source": "Intership_Report.pdf",
+    "text": "Application 8\n7 Task 1: Development of an AI-Powered Chatbot 10\n7.1 Rationale for OpenAI API Selection . . . . . . . . . . . . . . . . . . . . . 10\n7.2 System Architecture and Design . . . . . . . . . . . . . . . . . . . . . . . 11\n7.3 Implementation of the Chat Memory System . . . . . . . . . . . . . . . . 11\n7.4 The Command and Action System . . . . . . . . . . . . . . . . . . . . . 12\n7.5 Security Integration with Supabase Auth . . . . . . . . . . . . . . . . . . 12\n8 Task 2: Implementation of an AI Invoice Prediction System 13\n8.1 Overview of the Three-Tiered Approach . . . . . . . . . . . . . . . . . . 13\n8.2 Approach 1: Large Language Model (LLM) with OpenAI . . . . . . . . . 13\n8.3 Approach 2: Heuristic-Based Predictor . . . . . . . . . . . . . . . . . . . 14\n8.3.1 Methodology: Rule"
+  },
+  {
+    "id": 5,
+    "source": "Intership_Report.pdf",
+    "text": ". . . . . . . 13\n8.2 Approach 1: Large Language Model (LLM) with OpenAI . . . . . . . . . 13\n8.3 Approach 2: Heuristic-Based Predictor . . . . . . . . . . . . . . . . . . . 14\n8.3.1 Methodology: Rule-Based Aggregation . . . . . . . . . . . . . . . 14\n8.4 Approach 3: Machine Learning-Inspired Predictor . . . . . . . . . . . . . 14\n8.4.1 Methodology: Frequency-Based Ranking and Regression . . . . . 14\n8.5 Comparative Analysis of the Three Approaches . . . . . . . . . . . . . . 15\n9 Agile Process in Action: Iterative Development and Supervision 17\n10 Challenges Encountered and Solutions Deployed 17\n11 Achievement of Internship Objectives 18\n12 Conclusion and Personal Reflection 18\n13 Appendices & References 19\n2"
+  },
+  {
+    "id": 6,
+    "source": "Intership_Report.pdf",
+    "text": "17\n11 Achievement of Internship Objectives 18\n12 Conclusion and Personal Reflection 18\n13 Appendices & References 19\n2"
+  },
+  {
+    "id": 7,
+    "source": "Intership_Report.pdf",
+    "text": "1 Executive Summary\nThis comprehensive report documents the intensive one-month internship completed at\nMasterlys, a forward-thinking digital marketing agency specializing in innovative software\nsolutions, spanning from August 11th to September 11th. The primary objective of this\nprofessional immersion was to actively contribute to the development of a sophisticated\n”Smart Invoicing” web application, with particular emphasis on integrating cutting-edge\nartificial intelligence features to enhance user experience and operational automation.\nThe internship was strategically structured around two major technical tasks: first,\nthe creation of an in-app AI-powered chatbot designed to assist users with application\nnavigation and invoice-related tasks through natural language interaction; and seco"
+  },
+  {
+    "id": 8,
+    "source": "Intership_Report.pdf",
+    "text": "major technical tasks: first,\nthe creation of an in-app AI-powered chatbot designed to assist users with application\nnavigation and invoice-related tasks through natural language interaction; and second,\nthe design and implementation of a sophisticated predictive AI system capable of auto-\ngenerating invoice content based on historical data patterns and user behavior. All\ndevelopment work was conducted using a modern, industry-standard technology stack\nincluding Supabase as the Backend-as-a-Service platform, TypeScript for type-safe devel-\nopment, and OpenAI APIs for advanced AI capabilities, all operating within a disciplined\nAgile development framework.\nThis immersive professional experience proved instrumental in solidifying practical\nskills in full-stack web development, implementing s"
+  },
+  {
+    "id": 9,
+    "source": "Intership_Report.pdf",
+    "text": "all operating within a disciplined\nAgile development framework.\nThis immersive professional experience proved instrumental in solidifying practical\nskills in full-stack web development, implementing secure coding practices, and mas-\ntering collaborative software engineering methodologies. Crucially, it fostered a sophis-\nticated problem-solving mindset that prioritizes robust, scalable, and maintainable so-\nlutions over reliance on generative AI for code generation, thereby achieving the core\nobjective of developing independent, critical-thinking development capabilities. The in-\nternship successfully bridged the gap between academic knowledge and industrial-grade\nsoftware development, providing invaluable insights into professional software engineering\npractices.\n2 Introduction to the Hos"
+  },
+  {
+    "id": 10,
+    "source": "Intership_Report.pdf",
+    "text": "essfully bridged the gap between academic knowledge and industrial-grade\nsoftware development, providing invaluable insights into professional software engineering\npractices.\n2 Introduction to the Host Company and Internship\nContext\nMasterlys represents a dynamic and innovative digital marketing agency that specializes\nin providing cutting-edge software solutions to a diverse client portfolio.\nFigure 1: Masterlys\nThe company distinguishes itself through its commitment to leveraging state-of-the-\nart technology to streamline complex business processes, enhance operational efficiency,\n3"
+  },
+  {
+    "id": 11,
+    "source": "Intership_Report.pdf",
+    "text": "and improve client engagement metrics. During the internship period, I was fully in-\ntegrated into the development team responsible for creating an internal tool designed\nspecifically for advanced invoice management and automation processes.\nThis ambitious project, designated as the ”Smart Invoicing” application, aimed to\naddress significant pain points in traditional invoice management systems by reducing\nmanual data entry requirements, minimizing human error through intelligent automation,\nand substantially saving time for end-users through sophisticated AI-driven features.\nThe application represents Masterlys’ strategic initiative to develop proprietary tools\nthat demonstrate their technical expertise while solving genuine business challenges. The\ninternship context placed me at the int"
+  },
+  {
+    "id": 12,
+    "source": "Intership_Report.pdf",
+    "text": "epresents Masterlys’ strategic initiative to develop proprietary tools\nthat demonstrate their technical expertise while solving genuine business challenges. The\ninternship context placed me at the intersection of modern web development practices and\nartificial intelligence integration, providing an ideal environment for professional growth\nand technical skill development.\n3 Internship Objectives and Personal Learning Goals\nThe overarching objective of the internship was to facilitate a successful transition from\nacademic computer science knowledge to industrial-grade software development prac-\ntices. This transformation encompassed multiple dimensions of professional growth and\ntechnical skill acquisition, with specific, measurable goals including:\n•Achieving comprehensive proficiency in t"
+  },
+  {
+    "id": 13,
+    "source": "Intership_Report.pdf",
+    "text": "tices. This transformation encompassed multiple dimensions of professional growth and\ntechnical skill acquisition, with specific, measurable goals including:\n•Achieving comprehensive proficiency in the specified modern technology stack: Su-\npabase for backend services, TypeScript for type-safe development, and Git for\nversion control and collaborative workflows.\n•Developing a deep understanding and practical implementation experience with\nsecure authentication and authorization mechanisms, particularly focusing on JSON\nWeb Tokens (JWT) and Row Level Security (RLS) policies.\n•Cultivating the ability to design, code, test, debug, and deploy production-ready\nfeatures within a live application environment, following software engineering best\npractices and quality assurance standards.\n•Masteri"
+  },
+  {
+    "id": 14,
+    "source": "Intership_Report.pdf",
+    "text": "bility to design, code, test, debug, and deploy production-ready\nfeatures within a live application environment, following software engineering best\npractices and quality assurance standards.\n•Mastering collaborative development methodologies within a professional team set-\nting using distributed version control systems and Agile project management frame-\nworks.\n•Successfully integrating complex AI functionalities, specifically focusing on a con-\nversational chatbot interface and a sophisticated prediction engine, into a cohesive\nweb application architecture.\nA crucial personal learning goal was to cultivate the ability to build functional, robust\napplications from the ground up, utilizing AI as a powerful tool within the development\nstack rather than as a crutch for the development proces"
+  },
+  {
+    "id": 15,
+    "source": "Intership_Report.pdf",
+    "text": "as to cultivate the ability to build functional, robust\napplications from the ground up, utilizing AI as a powerful tool within the development\nstack rather than as a crutch for the development process itself. This philosophy aligns\nwith emerging industry perspectives on responsible AI integration in software engineering,\nas discussed in recent literature on human-AI collaboration in development workflows.\n4"
+  },
+  {
+    "id": 16,
+    "source": "Intership_Report.pdf",
+    "text": "4 Methodology: The Agile Development Framework\nThe development process at Masterlys was systematically guided by Agile principles,\nspecifically implementing a Scrum-like framework adapted to the team’s specific needs and\nproject requirements. This methodological approach provided structure and discipline to\nthe development workflow while maintaining flexibility to adapt to changing requirements\nand emerging challenges. The Agile implementation encompassed several key practices:\nSprint Planning:At the commencement of each development week, my supervisor\nand I conducted structured planning sessions to define and prioritize tasks for\nthe upcoming sprint. This involved breaking down the larger projects (chatbot\nimplementation, prediction system development) into manageable, well-defined user\ns"
+  },
+  {
+    "id": 17,
+    "source": "Intership_Report.pdf",
+    "text": "ons to define and prioritize tasks for\nthe upcoming sprint. This involved breaking down the larger projects (chatbot\nimplementation, prediction system development) into manageable, well-defined user\nstories with clear acceptance criteria and estimated effort requirements.\nDaily Stand-ups:Brief, focused daily synchronization meetings were conducted\nto discuss progress since the previous meeting, outline specific plans for the current\nday, and promptly identify any immediate blockers or challenges requiring assis-\ntance or resolution. These sessions fostered continuous communication and rapid\nproblem-solving.\nIterative Development & Review:Code was developed in small, functional in-\ncrements following the principle of ”vertical slicing” where each increment delivered\ntangible value. At the c"
+  },
+  {
+    "id": 18,
+    "source": "Intership_Report.pdf",
+    "text": "oblem-solving.\nIterative Development & Review:Code was developed in small, functional in-\ncrements following the principle of ”vertical slicing” where each increment delivered\ntangible value. At the conclusion of each sprint, a comprehensive review session\nwas conducted where I demonstrated the completed features to my supervisor.\nThis was followed by a constructive feedback loop where requirements were refined,\ncode quality was assessed, and improvements were identified for implementation in\nsubsequent iterations.\nThis disciplined Agile approach proved crucial for managing the inherent complex-\nity of the technical tasks, allowing for continuous feedback and course correction, and\nensuring that the final product closely aligned with the company’s specifications and\nquality standards. The"
+  },
+  {
+    "id": 19,
+    "source": "Intership_Report.pdf",
+    "text": "x-\nity of the technical tasks, allowing for continuous feedback and course correction, and\nensuring that the final product closely aligned with the company’s specifications and\nquality standards. The methodology reflects established best practices in software en-\ngineering project management, particularly for projects involving emerging technologies\nand uncertain requirements.\n5"
+  },
+  {
+    "id": 20,
+    "source": "Intership_Report.pdf",
+    "text": "Figure 2: Agile development workflow with sprint planning and iterative cycles\n5 Technological Environment and Formation\nA significant portion of the initial internship phase was dedicated to systematically mas-\ntering the required technologies and development tools. This formation period was es-\nsential for building the technical foundation necessary to contribute effectively to the\nproject.\n5.1 Supabase: The Backend-as-a-Service Platform\nSupabase served as our comprehensive backend solution, providing an integrated suite\nof tools including a robust PostgreSQL database, sophisticated authentication services,\nreal-time subscriptions, and RESTful APIs with auto-generation capabilities. My tech-\nnical formation involved learning to interact with the database via its JavaScript client\nlibrary"
+  },
+  {
+    "id": 21,
+    "source": "Intership_Report.pdf",
+    "text": "cation services,\nreal-time subscriptions, and RESTful APIs with auto-generation capabilities. My tech-\nnical formation involved learning to interact with the database via its JavaScript client\nlibrary, structuring efficient SQL queries, and most importantly, leveraging Row Level\nSecurity (RLS) policies to ensure that users could only access their own data—a critical\nrequirement for multi-tenant applications.\nThe choice of Supabase aligned with modern development trends favoring Backend-\nas-a-Service (BaaS) platforms that accelerate development while maintaining enterprise-\ngrade security and scalability. This approach reflects the industry shift toward serverless\narchitectures and managed services, as documented in contemporary software architecture\nliterature.\n5.2 TypeScript: Ensuring Cod"
+  },
+  {
+    "id": 22,
+    "source": "Intership_Report.pdf",
+    "text": "calability. This approach reflects the industry shift toward serverless\narchitectures and managed services, as documented in contemporary software architecture\nliterature.\n5.2 TypeScript: Ensuring Code Reliability\nTypeScript was mandated for all front-end and server-side application logic. Its sophisti-\ncated static type system proved invaluable for catching type-related errors at compile-time\nrather than runtime, significantly improving code readability and maintainability, and fa-\ncilitating better collaboration by making data structures and function contracts explicit\nthroughout the codebase.\n6 e.\n6"
+  },
+  {
+    "id": 23,
+    "source": "Intership_Report.pdf",
+    "text": "The adoption of TypeScript represents a growing industry recognition of the im-\nportance of type safety in JavaScript applications, particularly as applications scale in\ncomplexity. Research in software engineering has demonstrated that statically typed lan-\nguages can reduce certain categories of bugs by up to 15% compared to their dynamically\ntyped counterparts in large codebases.\n5.3 Secure Web Development Principles\nSecurity was treated as a non-negotiable aspect of the technical formation, with principles\nsystematically ingrained throughout the development process. Key security paradigms\nimplemented included:\n•Input Validation:Never trusting client-side input; all validations are performed\nserver-side with comprehensive sanitization procedures.\n•Data Access Control:Strictly enforcing"
+  },
+  {
+    "id": 24,
+    "source": "Intership_Report.pdf",
+    "text": "implemented included:\n•Input Validation:Never trusting client-side input; all validations are performed\nserver-side with comprehensive sanitization procedures.\n•Data Access Control:Strictly enforcing RLS policies on all database tables to\nprevent unauthorized data access at the database level.\n•Secret Management:Using environment variables for sensitive data like API\nkeys and credentials, following the principle of separation of configuration from\ncode.\n•Authentication Verification:Implementing proper authentication checks before\nany data-fetching operation, ensuring end-to-end security throughout the applica-\ntion.\nThese practices align with established web security frameworks such as the OWASP\nTop Ten, particularly addressing injection flaws, broken authentication, and sensitive\ndata exp"
+  },
+  {
+    "id": 25,
+    "source": "Intership_Report.pdf",
+    "text": "hout the applica-\ntion.\nThese practices align with established web security frameworks such as the OWASP\nTop Ten, particularly addressing injection flaws, broken authentication, and sensitive\ndata exposure vulnerabilities.\n5.4 Collaborative Development with Git & GitHub\nAll code was systematically managed using Git and hosted on GitHub repositories. I\nlearned and practiced a disciplined feature-branch workflow: creating a new branch\nfor each feature (e.g.,feature/chatbot-memory,feature/ml-predictor), committing\nchanges regularly with descriptive, conventional commit messages, and creating Pull Re-\nquests (PRs) for my supervisor to review and merge into the main branch following\nsuccessful code review.\n7"
+  },
+  {
+    "id": 26,
+    "source": "Intership_Report.pdf",
+    "text": "Re-\nquests (PRs) for my supervisor to review and merge into the main branch following\nsuccessful code review.\n7"
+  },
+  {
+    "id": 27,
+    "source": "Intership_Report.pdf",
+    "text": "Figure 3: Git feature branch workflow\nThis workflow embodies modern software engineering best practices for collaborative\ndevelopment, enabling parallel workstreams, facilitating code review processes, and main-\ntaining a clean, linear project history. The methodology has been widely adopted in both\nopen-source and commercial software development environments.\n6 Project Overview: The Smart Invoicing Applica-\ntion\nThe core application represents a sophisticated single-page application (SPA) built with\nmodern web technologies that allows users to comprehensively manage their business\ncontacts, create and send professional invoices, track payment statuses, and view their\ncomplete billing history through an intuitive user interface. The two AI features I im-\nplemented were strategically design"
+  },
+  {
+    "id": 28,
+    "source": "Intership_Report.pdf",
+    "text": "reate and send professional invoices, track payment statuses, and view their\ncomplete billing history through an intuitive user interface. The two AI features I im-\nplemented were strategically designed to serve as central pillars of the ”smart” aspect of\nthis application, directly enhancing user productivity through intelligent automation and\nnatural language interaction.\n8 Figure 4: Smart Invoicing application FACTURY\nFigure 5: FACTURY Testimonials\nThe application architecture follows a clean separation of concerns with a React-\nbased frontend, Supabase-powered backend, and integrated AI services through dedicated\nAPI routes. This architectural pattern aligns with contemporary full-stack JavaScript\ndevelopment practices and enables scalable, maintainable code organization.\n9"
+  },
+  {
+    "id": 29,
+    "source": "Intership_Report.pdf",
+    "text": "Figure 6: FACTURY Main Database Tables\n7 Task 1: Development of an AI-Powered Chatbot\n7.1 Rationale for OpenAI API Selection\nThe project specification explicitly required the use of the OpenAI API, prohibiting\nlocal LLMs or alternative proprietary SaaS solutions. This architectural decision was\nmultifaceted and grounded in practical considerations:\n•Performance and Capability:OpenAI’s GPT-4o model offers state-of-the-art\nreasoning and instruction-following capabilities, which was necessary for handling\ncomplex, contextual user queries about the application’s functionality and invoice\nmanagement processes.\n•Cost-Effectiveness:For a project at this scale and stage of development, building\nand fine-tuning a proprietary LLM would be prohibitively expensive and computa-\ntionally intensive. The"
+  },
+  {
+    "id": 30,
+    "source": "Intership_Report.pdf",
+    "text": "t processes.\n•Cost-Effectiveness:For a project at this scale and stage of development, building\nand fine-tuning a proprietary LLM would be prohibitively expensive and computa-\ntionally intensive. The API provides a predictable pay-as-you-go model that aligns\nwith operational budgeting constraints.\n•Development Velocity & Maintenance:Using the API abstracted away the\nimmense complexity of model hosting, inference optimization, and infrastructure\nmaintenance. This allowed focused attention on application logic and user experi-\nence integration, significantly accelerating development time.\n•Network and Latency Considerations:The application’s architecture was al-\nready cloud-based and web-oriented. Integrating with a cloud-based API like Ope-\nnAI’s introduced minimal additional latency compar"
+  },
+  {
+    "id": 31,
+    "source": "Intership_Report.pdf",
+    "text": "rk and Latency Considerations:The application’s architecture was al-\nready cloud-based and web-oriented. Integrating with a cloud-based API like Ope-\nnAI’s introduced minimal additional latency compared to the substantial user ex-\nperience benefits, and it proved more reliable than attempting to host a smaller,\nless capable model on potentially limited infrastructure.\n10"
+  },
+  {
+    "id": 32,
+    "source": "Intership_Report.pdf",
+    "text": "This approach reflects the emerging pattern of ”AI-as-a-Service” integration in modern\napplications, where specialized AI capabilities are consumed via API rather than built\nin-house, allowing teams to leverage cutting-edge AI research without the associated\ninfrastructure complexity.\n7.2 System Architecture and Design\nThe chatbot was architecturally designed as a modular React component that communi-\ncates with a dedicated API route within the application’s backend structure. This route,\nin turn, acts as a secure proxy to the OpenAI API, handling authentication, request\nformatting, and response processing. The system was carefully prompted with a strict\ncontext definition to only answer questions related to the invoicing application domain,\neffectively preventing off-topic responses and e"
+  },
+  {
+    "id": 33,
+    "source": "Intership_Report.pdf",
+    "text": "se processing. The system was carefully prompted with a strict\ncontext definition to only answer questions related to the invoicing application domain,\neffectively preventing off-topic responses and ensuring focused, relevant assistance.\nThe architectural pattern follows the proxy design pattern for external service in-\ntegration, providing a controlled interface between the application and the external AI\nservice while maintaining security, handling errors gracefully, and enabling future service\nsubstitutions if required.\nFigure 7: Chatbot UI\n7.3 Implementation of the Chat Memory System\nTo provide coherent, contextually aware multi-turn conversations, a sophisticated chat\nmemory system was essential for maintaining conversation state across sessions. This was\nimplemented by creating a ded"
+  },
+  {
+    "id": 34,
+    "source": "Intership_Report.pdf",
+    "text": "ovide coherent, contextually aware multi-turn conversations, a sophisticated chat\nmemory system was essential for maintaining conversation state across sessions. This was\nimplemented by creating a dedicatedchat messagestable in the Supabase database with\nan optimized schema design. The table structure includeduser id(linked to Supabase\nAuth for user isolation),role(specifying ’user’ or ’assistant’),content(storing the\n11"
+  },
+  {
+    "id": 35,
+    "source": "Intership_Report.pdf",
+    "text": "message text), and atimestampfor temporal ordering. Comprehensive RLS policies\nensured users could only access their own chat history, maintaining strict data privacy.\nBefore sending a new user message to the OpenAI API, the application fetches the\nlast N messages (configurable based on context window constraints) from the database to\nprovide the model with rich conversational context. This implementation was critical for\nhandling complex scenarios like a user’s subscription ending, where the chatbot needed\nto remember the context of previous queries about billing and service status to provide\ncoherent, continuous assistance.\nThis memory system embodies principles from conversation design theory and context\nmanagement in dialog systems, ensuring that interactions feel continuous and contex"
+  },
+  {
+    "id": 36,
+    "source": "Intership_Report.pdf",
+    "text": "coherent, continuous assistance.\nThis memory system embodies principles from conversation design theory and context\nmanagement in dialog systems, ensuring that interactions feel continuous and contextu-\nally relevant rather than stateless and disjointed.\nFigure 8: The LLM Memory Retreival Process\n7.4 The Command and Action System\nTo transcend the limitations of a simple QA bot and create a truly integrated assis-\ntant, I engineered a sophisticated command detection and action system. The chat-\nbot’s response was systematically parsed for specific action keywords and patterns (e.g.,\n/create invoice,/list invoices,/view contacts). When a valid command was de-\ntected, the front-end application would programmatically trigger the corresponding ap-\nplication function, creating a seamless bridge"
+  },
+  {
+    "id": 37,
+    "source": "Intership_Report.pdf",
+    "text": "voice,/list invoices,/view contacts). When a valid command was de-\ntected, the front-end application would programmatically trigger the corresponding ap-\nplication function, creating a seamless bridge between conversational interface and appli-\ncation functionality.\nFor example, the/list invoicescommand would programmatically navigate the\nuser interface to the ’Invoices’ page and populate it with the user’s relevant data, while\nthe/create invoicecommand would open the invoice creation form with pre-filled\ndata based on the conversation context. This integration represents an advanced imple-\nmentation of natural language interfaces (NLIs) for software applications, moving beyond\nsimple question answering to direct manipulation of the application state through natural\nlanguage.\n7.5 Security"
+  },
+  {
+    "id": 38,
+    "source": "Intership_Report.pdf",
+    "text": "ntation of natural language interfaces (NLIs) for software applications, moving beyond\nsimple question answering to direct manipulation of the application state through natural\nlanguage.\n7.5 Security Integration with Supabase Auth\nEvery API call to the chatbot route implemented comprehensive security validation,\nbeginning with verification of the user’s JWT token provided by Supabase Auth. The\n12"
+  },
+  {
+    "id": 39,
+    "source": "Intership_Report.pdf",
+    "text": "server-side logic utilized this authenticated session context to fetch user-specific data (e.g.,\ntheir invoices for listing operations) and to save/retrieve messages from their isolated\nchat memory segment. This end-to-end security model ensured that no user could access\nanother user’s data or chat history, maintaining strict data isolation and privacy.\nThe security implementation follows the principle of defense in depth, with authenti-\ncation at the API boundary, authorization at the database level through RLS, and data\nisolation throughout the application logic. This multi-layered approach aligns with secu-\nrity best practices for multi-tenant SaaS applications handling sensitive business data.\n8 Task 2: Implementation of an AI Invoice Predic-\ntion System\n8.1 Overview of the Three-Tiere"
+  },
+  {
+    "id": 40,
+    "source": "Intership_Report.pdf",
+    "text": "aligns with secu-\nrity best practices for multi-tenant SaaS applications handling sensitive business data.\n8 Task 2: Implementation of an AI Invoice Predic-\ntion System\n8.1 Overview of the Three-Tiered Approach\nThis ambitious task aimed to develop a sophisticated system capable of predicting a new\ninvoice’s services, comments, and due date for a given contact based exclusively on their\nhistorical invoice data. To thoroughly evaluate different technical paradigms and their\ntrade-offs, I adopted a comprehensive three-pronged methodological approach:\n1.LLM Approach:Utilizing OpenAI’s API to perform contextual analysis of histor-\nical invoice data and generate intelligent predictions in a structured JSON format\nthrough advanced prompt engineering.\n2.Heuristic Approach:Implementing a determinis"
+  },
+  {
+    "id": 41,
+    "source": "Intership_Report.pdf",
+    "text": "rm contextual analysis of histor-\nical invoice data and generate intelligent predictions in a structured JSON format\nthrough advanced prompt engineering.\n2.Heuristic Approach:Implementing a deterministic, rule-based algorithm to ex-\ntract and aggregate data from past invoices using straightforward business logic\nand mathematical operations.\n3.ML-Inspired Approach:Developing a lightweight, statistics-based machine learn-\ning methodology for ranking services and forecasting dates using fundamental ML\nconcepts without the complexity of full model training pipelines.\nThis multi-faceted approach allowed for empirical comparison of different AI integra-\ntion strategies, providing valuable insights into the practical trade-offs between sophisti-\ncation, performance, cost, and maintainability in p"
+  },
+  {
+    "id": 42,
+    "source": "Intership_Report.pdf",
+    "text": "lowed for empirical comparison of different AI integra-\ntion strategies, providing valuable insights into the practical trade-offs between sophisti-\ncation, performance, cost, and maintainability in production environments.\n8.2 Approach 1: Large Language Model (LLM) with OpenAI\nThis method involved systematically sending the contact’s last N invoices (formatted as\nstructured JSON) to the OpenAI API with a meticulously crafted prompt instructing the\nmodel to function as an intelligent invoice prediction engine. The prompt engineering\nincluded detailed specifications about the desired output format, contextual considera-\ntions for prediction, and examples of high-quality responses. The model was specifically\nconstrained to output predictions in a JSON structure that precisely matched our app"
+  },
+  {
+    "id": 43,
+    "source": "Intership_Report.pdf",
+    "text": "mat, contextual considera-\ntions for prediction, and examples of high-quality responses. The model was specifically\nconstrained to output predictions in a JSON structure that precisely matched our appli-\ncation’s data model requirements.\n•Advantage:Highly flexible and capable of understanding complex, non-obvious\npatterns in the data that might escape simpler algorithmic approaches. The ap-\nproach can generate genuinely novel insights based on semantic understanding of\ninvoice content.\n13"
+  },
+  {
+    "id": 44,
+    "source": "Intership_Report.pdf",
+    "text": "•Disadvantage:Higher latency due to API communication, ongoing operational\ncosts based on usage volume, and less deterministic behavior that can vary based\non model version, temperature settings, and prompt formulation.\nThis approach represents the cutting edge of AI application in business process au-\ntomation, leveraging large language models’ remarkable pattern recognition and genera-\ntion capabilities for practical business applications.\n8.3 Approach 2: Heuristic-Based Predictor\n8.3.1 Methodology: Rule-Based Aggregation\nThis approach, implemented inheuristic-predictor.ts, is fundamentally based on\nsimple, deterministic rules derived from business logic and common practices. It does\nnot learn from data in a statistical sense but operates on fixed, transparent logic that is\neasily unders"
+  },
+  {
+    "id": 45,
+    "source": "Intership_Report.pdf",
+    "text": "based on\nsimple, deterministic rules derived from business logic and common practices. It does\nnot learn from data in a statistical sense but operates on fixed, transparent logic that is\neasily understandable and debuggable.\n•Services & Comments Prediction:The algorithm aggregates all unique services\never used by the contact throughout their history. The service comment for each\npredicted service is taken from thefirstoccurrence of that service in the historical\ndata. This represents a straightforward ”first-in, first-remembered” aggregation\nheuristic that prioritizes original descriptions.\n•Due Date Forecasting:The logic for due date prediction implements a classic\nheuristic for time-series forecasting in business contexts. For two or more historical\ninvoices, it calculates the average in"
+  },
+  {
+    "id": 46,
+    "source": "Intership_Report.pdf",
+    "text": "ue Date Forecasting:The logic for due date prediction implements a classic\nheuristic for time-series forecasting in business contexts. For two or more historical\ninvoices, it calculates the average interval (in milliseconds) between consecutive\ninvoice dates and projects the next due date by adding this average interval to the\ndate of the most recent invoice. For a single historical invoice, it gracefully falls back\nto a standard business rule of adding 30 days, reflecting common billing practices.\nThis heuristic approach embodies principles from business rules engines and expert\nsystems, where domain knowledge is encoded directly into algorithmic logic rather than\nlearned from data.\n8.4 Approach 3: Machine Learning-Inspired Predictor\n8.4.1 Methodology: Frequency-Based Ranking and Regressi"
+  },
+  {
+    "id": 47,
+    "source": "Intership_Report.pdf",
+    "text": "e domain knowledge is encoded directly into algorithmic logic rather than\nlearned from data.\n8.4 Approach 3: Machine Learning-Inspired Predictor\n8.4.1 Methodology: Frequency-Based Ranking and Regression\nThis sophisticated approach, implemented inml-predictor.ts, incorporates fundamen-\ntal machine learning concepts while avoiding the complexity of a full model training\npipeline, making it ideal for resource-constrained environments.\n•Service Recommendation System:This implements aFrequency-Based Col-\nlaborative Filteringmethod commonly used in recommendation systems. It sys-\ntematically counts how often each service appears in the user’s historical invoice\ndata. Services are then ranked by their frequency count, operating on the well-\nestablished hypothesis that more frequently used service"
+  },
+  {
+    "id": 48,
+    "source": "Intership_Report.pdf",
+    "text": "how often each service appears in the user’s historical invoice\ndata. Services are then ranked by their frequency count, operating on the well-\nestablished hypothesis that more frequently used services are statistically more\nlikely to be needed again. This represents a lightweight, computationally efficient\nrecommendation technique widely employed in early-stage recommender systems\n(as documented in ”Recommender Systems Handbook” by Ricci et al.).\n14"
+  },
+  {
+    "id": 49,
+    "source": "Intership_Report.pdf",
+    "text": "•Service Comments Selection:The comment for each service is intelligently\ntaken from itsmost recentoccurrence, implementing a simple form ofrecency-\nweighting. This approach often provides more relevant and current descriptions\ncompared to the first occurrence method used in the heuristic approach, as business\nrelationships and service descriptions evolve over time.\n•Due Date Prediction:The due date forecasting employs aSimple Linear Re-\ngressionmodel on the temporal domain. By calculating the average interval be-\ntween historical invoices, it effectively fits a linear trend to the dates. The prediction\nrepresents an extrapolation of this trend into the future. This is a standard and\nstatistically well-established method for time-series forecasting in business contexts\n(as referenced in Hy"
+  },
+  {
+    "id": 50,
+    "source": "Intership_Report.pdf",
+    "text": "prediction\nrepresents an extrapolation of this trend into the future. This is a standard and\nstatistically well-established method for time-series forecasting in business contexts\n(as referenced in Hyndman & Athanasopoulos’s ”Forecasting: principles and prac-\ntice”).\n•Invoice Comment Selection:The system intelligently selects the comment from\nthe most recent invoice that contains a non-empty comment field. This can be con-\nceptually viewed as a 1-Nearest Neighbor search in the temporal dimension, where\nthe similarity metric is simply recency, prioritizing the most relevant historical con-\ntext.\nThis ML-inspired approach demonstrates how core machine learning principles can be\napplied pragmatically without requiring extensive data science infrastructure or model\ntraining complexities.\n8.5 C"
+  },
+  {
+    "id": 51,
+    "source": "Intership_Report.pdf",
+    "text": ".\nThis ML-inspired approach demonstrates how core machine learning principles can be\napplied pragmatically without requiring extensive data science infrastructure or model\ntraining complexities.\n8.5 Comparative Analysis of the Three Approaches\nThe comprehensive analysis reveals that the heuristic predictor offers robustness and\nspeed but lacks intelligent ranking capabilities. The ML-inspired predictor provides a\nmore nuanced, data-driven output without external dependencies, making it the superior\nchoice for production environments where cost, speed, and determinism are critical con-\nsiderations. The LLM approach, while most flexible, introduces operational complexity\nand cost that may not be justified for this specific use case, though it remains valuable\nfor more complex prediction scen"
+  },
+  {
+    "id": 52,
+    "source": "Intership_Report.pdf",
+    "text": "ons. The LLM approach, while most flexible, introduces operational complexity\nand cost that may not be justified for this specific use case, though it remains valuable\nfor more complex prediction scenarios requiring deeper semantic understanding.\n15"
+  },
+  {
+    "id": 53,
+    "source": "Intership_Report.pdf",
+    "text": "Table 1: Comparative Analysis of Prediction Approaches\nFeature LLM Ap-\nproachHeuristic Ap-\nproachML-Inspired\nApproach\nConceptual\nFoundationGenerative AI Deterministic\nRulesStatistical Anal-\nysis\nFlexibility &\nAdaptabilityHigh Low Medium\nDeterminism\n& Predictabil-\nityLow High High\nPerformance\nCharacteris-\nticsSlower (API\ncall)FastestFast\nOperational\nCostHigher (per-call)FreeFree\nData Require-\nmentsCan work with\nlimited dataRequires histori-\ncal dataRequires histori-\ncal data\nService Rank-\ning Methodol-\nogyContextual un-\nderstandingNo ranking (all\nservices)Frequency-\nbased ranking\nComment Se-\nlection LogicContextual sum-\nmaryFirst occurrenceMost recent\noccurrence\nImplementation\nComplexityHigh Low Medium\nExplainabilityLow High Medium\nFigure 9: A Demo Invoice Creating Layout16"
+  },
+  {
+    "id": 54,
+    "source": "Intership_Report.pdf",
+    "text": "9 Agile Process in Action: Iterative Development\nand Supervision\nThe development of these sophisticated features served as a practical testament to the\neffectiveness of Agile methodology in managing complex software projects. The chatbot\nimplementation, for instance, began as a simple proof-of-concept capable of answering\nbasic questions through a minimal interface. Through structured weekly reviews and\nfeedback cycles, it evolved substantially: my supervisor astutely suggested adding the\nmemory system after the first demonstration revealed limitations in conversation conti-\nnuity, and the command system was proposed in a subsequent session to dramatically\nincrease its utility and integration depth.\nSimilarly, the prediction system commenced as a single heuristic method focused on\nbasic fu"
+  },
+  {
+    "id": 55,
+    "source": "Intership_Report.pdf",
+    "text": "mand system was proposed in a subsequent session to dramatically\nincrease its utility and integration depth.\nSimilarly, the prediction system commenced as a single heuristic method focused on\nbasic functionality. Thoughtful discussions about its limitations in handling complex\npatterns and providing intelligent rankings led to the prototyping of both the LLM and\nML-inspired approaches, creating an opportunity for empirical comparison and contrast\nof their respective merits in a real-world application context. This iterative refinement\nprocess exemplifies the core Agile principle of responding to change over following a rigid\nplan, while maintaining disciplined engineering practices.\nThe supervision model combined technical guidance with professional mentorship, fos-\ntering both skill devel"
+  },
+  {
+    "id": 56,
+    "source": "Intership_Report.pdf",
+    "text": "to change over following a rigid\nplan, while maintaining disciplined engineering practices.\nThe supervision model combined technical guidance with professional mentorship, fos-\ntering both skill development and critical thinking abilities. Regular code reviews not only\nimproved code quality but also facilitated knowledge transfer about software architecture\npatterns, performance optimization techniques, and maintainability considerations.\n10 Challenges Encountered and Solutions Deployed\nThe internship presented several significant technical challenges that required systematic\nproblem-solving and implementation of robust solutions:\n•Challenge:Securing the chatbot API endpoint to prevent unauthorized access\nand potential data breaches while maintaining performance and usability.\n•Solution:Im"
+  },
+  {
+    "id": 57,
+    "source": "Intership_Report.pdf",
+    "text": "nd implementation of robust solutions:\n•Challenge:Securing the chatbot API endpoint to prevent unauthorized access\nand potential data breaches while maintaining performance and usability.\n•Solution:Implemented comprehensive JWT verification on the server-side API\nroute and enforced strict Row Level Security policies on thechat messagestable,\ncreating a defense-in-depth security approach.\n•Challenge:Structuring the prompt for the LLM predictor to consistently return\nvalid, well-formed JSON across diverse input data patterns and edge cases.\n•Solution:Conducted iterative testing and refinement of the prompt engineering\napproach, including explicit instructions, format specifications, and example out-\nputs to guide the model toward consistent response patterns.\n•Challenge:Handling edge cases i"
+  },
+  {
+    "id": 58,
+    "source": "Intership_Report.pdf",
+    "text": "the prompt engineering\napproach, including explicit instructions, format specifications, and example out-\nputs to guide the model toward consistent response patterns.\n•Challenge:Handling edge cases in the prediction systems, particularly for contacts\nwith minimal or no invoice history where statistical methods become unreliable.\n•Solution:Implemented comprehensive fallback functions (fallbackPrediction)\nthat return safe, reasonable default values when insufficient historical data exists\nfor meaningful prediction.\n17"
+  },
+  {
+    "id": 59,
+    "source": "Intership_Report.pdf",
+    "text": "•Challenge:Managing code conflicts and integration issues when working concur-\nrently on different features within a collaborative development environment.\n•Solution:Maintained strict adherence to the Git feature-branch workflow and\nestablished clear communication protocols with my supervisor during PR reviews\nto identify and resolve integration issues early.\n•Challenge:Balancing the trade-offs between prediction sophistication, system per-\nformance, and implementation complexity across the three prediction approaches.\n•Solution:Conducted systematic evaluation of each approach against multiple cri-\nteria including accuracy, performance, cost, and maintainability to inform the final\narchitectural decision.\nThese challenges and their solutions provided valuable learning opportunities in prac"
+  },
+  {
+    "id": 60,
+    "source": "Intership_Report.pdf",
+    "text": "cri-\nteria including accuracy, performance, cost, and maintainability to inform the final\narchitectural decision.\nThese challenges and their solutions provided valuable learning opportunities in prac-\ntical software engineering problem-solving, emphasizing the importance of systematic\nthinking, testing methodologies, and architectural decision-making in professional devel-\nopment contexts.\n11 Achievement of Internship Objectives\nThe internship successfully met and in several cases exceeded all its defined objectives,\nrepresenting a comprehensive professional development experience. I achieved substantial\nproficiency in the targeted modern technology stack—Supabase, TypeScript, and secure\ndevelopment practices—as demonstrated by the successful deployment of production-\nready features into"
+  },
+  {
+    "id": 61,
+    "source": "Intership_Report.pdf",
+    "text": "substantial\nproficiency in the targeted modern technology stack—Supabase, TypeScript, and secure\ndevelopment practices—as demonstrated by the successful deployment of production-\nready features into the live application environment. I actively and effectively utilized\nGit and GitHub for collaborative development, mastering feature branch workflows, pull\nrequest processes, and code review participation.\nMost significantly, by designing and building a complex application with multiple in-\ntegrated AI features through reasoned architectural decisions and iterative coding prac-\ntices—rather than relying on generative AI to write the code autonomously—I have\nsubstantially strengthened my independent software engineering capabilities and critical\nthinking skills. This approach aligns with emerg"
+  },
+  {
+    "id": 62,
+    "source": "Intership_Report.pdf",
+    "text": "relying on generative AI to write the code autonomously—I have\nsubstantially strengthened my independent software engineering capabilities and critical\nthinking skills. This approach aligns with emerging best practices in AI-assisted develop-\nment, where engineers leverage AI as a tool while maintaining architectural control and\nunderstanding.\nThe experience also developed important professional competencies including time\nmanagement, task estimation, technical communication, and quality assurance practices.\nThe successful completion of both major tasks—the AI chatbot and the multi-approach\nprediction system—demonstrates comprehensive skill development across the full software\ndevelopment lifecycle from requirements analysis to deployment.\n12 Conclusion and Personal Reflection\nThis intensi"
+  },
+  {
+    "id": 63,
+    "source": "Intership_Report.pdf",
+    "text": "ediction system—demonstrates comprehensive skill development across the full software\ndevelopment lifecycle from requirements analysis to deployment.\n12 Conclusion and Personal Reflection\nThis intensive one-month internship at Masterlys proved to be an immensely rewarding\nand educational professional experience that provided realistic immersion into the world\nof industrial software development. Beyond acquiring specific technical skills in modern\nweb technologies and AI integration, I developed a more profound understanding of how\n18"
+  },
+  {
+    "id": 64,
+    "source": "Intership_Report.pdf",
+    "text": "to think like a software engineer: systematically considering scalability, security, main-\ntainability, and user experience from the initial design stages through implementation\nand deployment.\nThe unique opportunity to design, implement, and empirically compare different AI\napproaches for the prediction system was particularly valuable, providing practical in-\nsights into the real-world trade-offs involved in AI integration decisions. This experience\nhighlighted that the most sophisticated AI approach is not always the most appropri-\nate, and that factors like cost, performance, determinism, and maintainability must be\ncarefully balanced based on specific application requirements and constraints.\nThe internship successfully bridged the gap between academic computer science educa-\ntion and"
+  },
+  {
+    "id": 65,
+    "source": "Intership_Report.pdf",
+    "text": "and maintainability must be\ncarefully balanced based on specific application requirements and constraints.\nThe internship successfully bridged the gap between academic computer science educa-\ntion and professional software engineering practice, reinforcing theoretical concepts with\npractical implementation experience. I am confident that the technical skills, method-\nological approaches, and professional mindset developed during this immersion will prove\nfoundational to my future career as a software engineer, particularly in the rapidly evolv-\ning field of AI-integrated applications.\n13 Appendices & References\nReferences\n•Ricci, F., Rokach, L., & Shapira, B. (2011).Recommender Systems Handbook.\nSpringer.\n•Hyndman, R.J., & Athanasopoulos, G. (2018).Forecasting: principles and practice.\nOTe"
+  },
+  {
+    "id": 66,
+    "source": "Intership_Report.pdf",
+    "text": "dices & References\nReferences\n•Ricci, F., Rokach, L., & Shapira, B. (2011).Recommender Systems Handbook.\nSpringer.\n•Hyndman, R.J., & Athanasopoulos, G. (2018).Forecasting: principles and practice.\nOTexts.\n•Martin, R. C. (2017).Clean Architecture: A Craftsman’s Guide to Software Struc-\nture and Design. Prentice Hall.\n•Supabase Documentation:https://supabase.com/docs\n•OpenAI API Documentation:https://platform.openai.com/docs\n•OWASP Foundation. (2021).OWASP Top Ten Web Application Security Risks.\nhttps://owasp.org/www-project-top-ten/\nCode Repositories\n•Private company repositories (Access restricted)\nList of Proposed Figures\n1. Figure: Company Organizational Structure and Team Integration (Section 2)\n2. Figure: Agile Development Workflow Diagram (Section 4)\n3. Figure: Git Feature Branch Work"
+  },
+  {
+    "id": 67,
+    "source": "Intership_Report.pdf",
+    "text": "cted)\nList of Proposed Figures\n1. Figure: Company Organizational Structure and Team Integration (Section 2)\n2. Figure: Agile Development Workflow Diagram (Section 4)\n3. Figure: Git Feature Branch Workflow (Section 5.4)\n4. Figure: Smart Invoicing Application FACTURY (Section 6)\n5. Figure: FACTURY Testimonials (section 6)\n19 6. Figure: FACTURY Main Database Tables within Supabase Dashboard (section 6)\n7. Figure: Invoice Layout (section 6)\n8. Figure: Chatbot UI (Section 7.2)\n9. Figure: New Demo-Invoice Layout (section 8.5)\n20"
+  }
+]

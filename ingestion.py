@@ -7,6 +7,9 @@ import faiss
 from utils import read_file_text, make_sure_path_exists
 from glob import glob
 from tqdm import tqdm
+import torch
+
+torch.set_default_tensor_type(torch.FloatTensor)  # ensure normal tensors
 
 class Ingestor:
     """
